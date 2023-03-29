@@ -3,5 +3,55 @@
     --violet:#6B77E5;
     --lightFont:#7D7D7D;
     --darkFont:#37393F;
+    --white: #FFFFFF;
+
+}
+
+.headerWrapper{
+    display:flex;
+    justify-self: center;
+    flex-direction: row;
+    align-items: center;
+    width:1200px;
+    height:65px;
+    margin: 53px auto 0 auto;
+}
+
+
+.menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:601px;
+    height:65px;  
+    margin: 0 40px 0 195px;
+}
+
+.menu-item{
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height:22px;
+    color:var(--darkFont);
+}
+
+.fa-angle-down{
+    vertical-align: middle;
+}
+
+.getConsulting {
+    width:184px;
+    height:65px;
+    line-height:22px;
+    font-size: 18px;
+    font-weight:400;
+    background-color: var(--violet);
+    font-family: 'Cabin', sans-serif;
+    color:var(--white);
+    border: none;
+}
+
+.logo{
+    width:200px;
 }
 
