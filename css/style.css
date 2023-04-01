@@ -143,7 +143,7 @@
     position:relative;
     max-width:100%;
     height:557px;
-    background-image:url("/pic/handshakeBackground.jpg");
+    background-image:url('../pic/handshakeBackground.jpg');
     margin-bottom: 155px;
 }  
 
@@ -208,6 +208,7 @@
     border-radius:50%;
     background-color: var(--violet);
     padding-left:4px;
+    cursor:pointer;
 }
 
 .fa-play{
